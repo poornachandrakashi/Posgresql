@@ -1,0 +1,302 @@
+﻿WEBVTT
+
+1
+00:00:00.400 --> 00:00:01.700
+<v Jose>Hi and welcome back.</v>
+
+2
+00:00:01.700 --> 00:00:03.480
+In this video, we're going to be looking at
+
+3
+00:00:03.480 --> 00:00:05.360
+returning the current class,
+
+4
+00:00:05.360 --> 00:00:08.190
+as a type in our type hints.
+
+5
+00:00:08.190 --> 00:00:11.210
+And this is a really useful thing to do
+
+6
+00:00:11.210 --> 00:00:13.350
+in most of your programmes.
+
+7
+00:00:13.350 --> 00:00:17.080
+Just because it lets you, in just one line
+
+8
+00:00:17.080 --> 00:00:19.810
+tell whoever is calling your methods
+
+9
+00:00:19.810 --> 00:00:23.050
+that we are gonna return an object of the class,
+
+10
+00:00:23.050 --> 00:00:25.483
+item model or store model, and so on.
+
+11
+00:00:26.720 --> 00:00:28.160
+And the way you do that
+
+12
+00:00:28.160 --> 00:00:29.420
+is very straightforward.
+
+13
+00:00:29.420 --> 00:00:31.290
+All you have to do is go to the method
+
+14
+00:00:31.290 --> 00:00:33.470
+that you want to make return
+
+15
+00:00:33.470 --> 00:00:36.080
+a type of the current class.
+
+16
+00:00:36.080 --> 00:00:38.100
+That is, the class that you're currently in,
+
+17
+00:00:38.100 --> 00:00:39.670
+in this method.
+
+18
+00:00:39.670 --> 00:00:40.520
+And just say
+
+19
+00:00:42.210 --> 00:00:44.813
+item model, like so.
+
+20
+00:00:45.960 --> 00:00:47.490
+So here's the thing,
+
+21
+00:00:47.490 --> 00:00:51.140
+you cannot do this
+
+22
+00:00:51.140 --> 00:00:53.930
+because item model doesn't exist,
+
+23
+00:00:53.930 --> 00:00:57.240
+by the time that this gets evaluated.
+
+24
+00:00:57.240 --> 00:01:00.743
+Item model exists after this gets evaluated.
+
+25
+00:01:01.640 --> 00:01:04.000
+However, if you use quotes
+
+26
+00:01:05.330 --> 00:01:06.450
+and make it return, essentially,
+
+27
+00:01:06.450 --> 00:01:07.950
+this string here,
+
+28
+00:01:07.950 --> 00:01:10.750
+what's going to happen is Python
+
+29
+00:01:10.750 --> 00:01:12.250
+is gonna be smart enough to know
+
+30
+00:01:12.250 --> 00:01:13.680
+that what you intend to do,
+
+31
+00:01:13.680 --> 00:01:17.160
+is evaluate this return type
+
+32
+00:01:17.160 --> 00:01:21.410
+after the current file has been imported.
+
+33
+00:01:21.410 --> 00:01:23.887
+So when that happens, it's going to be able to say,
+
+34
+00:01:23.887 --> 00:01:26.257
+"Okay, you're gonna return an item model,
+
+35
+00:01:26.257 --> 00:01:28.627
+"which is this class that we're currently in."
+
+36
+00:01:29.500 --> 00:01:33.660
+But it doesn't know, until that has happened.
+
+37
+00:01:33.660 --> 00:01:35.390
+PyChart, however, is of course, smart enough.
+
+38
+00:01:35.390 --> 00:01:37.110
+And most of the editors are as well
+
+39
+00:01:37.110 --> 00:01:40.140
+to know that this is going to be
+
+40
+00:01:40.140 --> 00:01:42.460
+a class of type item model
+
+41
+00:01:42.460 --> 00:01:44.530
+and you don't have to worry about anything.
+
+42
+00:01:44.530 --> 00:01:46.500
+This is the way that Python recommends
+
+43
+00:01:46.500 --> 00:01:49.553
+returning self type, essentially.
+
+44
+00:01:51.460 --> 00:01:53.820
+Similarly, for the find all method here
+
+45
+00:01:53.820 --> 00:01:58.133
+in the item class we can return a list of item model.
+
+46
+00:01:59.230 --> 00:02:00.840
+And that does the same thing.
+
+47
+00:02:00.840 --> 00:02:03.200
+So as you can see, item model inside quotes
+
+48
+00:02:03.200 --> 00:02:05.080
+can be used as a type,
+
+49
+00:02:05.080 --> 00:02:08.090
+like list or str or int r.
+
+50
+00:02:08.090 --> 00:02:10.710
+So that is the recommended way
+
+51
+00:02:10.710 --> 00:02:14.060
+of returning the current class as a type.
+
+52
+00:02:14.060 --> 00:02:16.260
+We can go ahead into our store
+
+53
+00:02:16.260 --> 00:02:18.853
+and do the same thing with find by name.
+
+54
+00:02:20.720 --> 00:02:22.830
+And also with this
+
+55
+00:02:23.720 --> 00:02:25.223
+store model list.
+
+56
+00:02:26.310 --> 00:02:28.210
+And also in the user.py
+
+57
+00:02:28.210 --> 00:02:31.020
+we can do the same with find by username
+
+58
+00:02:32.140 --> 00:02:33.743
+and find by ID.
+
+59
+00:02:36.060 --> 00:02:38.400
+All right, that's it.
+
+60
+00:02:38.400 --> 00:02:41.500
+This is how you can return the current class as a type.
+
+61
+00:02:41.500 --> 00:02:42.650
+And it's really straightforward
+
+62
+00:02:42.650 --> 00:02:44.790
+but I probably just saved you a bunch of time
+
+63
+00:02:44.790 --> 00:02:46.580
+trying to find out how to do this.
+
+64
+00:02:46.580 --> 00:02:49.200
+I know that when we were looking for,
+
+65
+00:02:49.200 --> 00:02:51.500
+when we were researching for this course
+
+66
+00:02:51.500 --> 00:02:54.030
+it wasn't so clear,
+
+67
+00:02:54.030 --> 00:02:56.180
+how to return the current class as type.
+
+68
+00:02:56.180 --> 00:02:58.570
+It took us a wee while to find
+
+69
+00:02:58.570 --> 00:03:02.830 line:15% 
+exactly how and what the best way to do it is.
+
+70
+00:03:02.830 --> 00:03:03.700 line:15% 
+So now you know,
+
+71
+00:03:03.700 --> 00:03:04.533 line:15% 
+this is the best way.
+
+72
+00:03:04.533 --> 00:03:05.800 line:15% 
+It's the simplest way as well.
+
+73
+00:03:05.800 --> 00:03:09.560 line:15% 
+So go ahead and use this in your Python applications.
+
+74
+00:03:09.560 --> 00:03:10.950
+That's it for this video.
+
+75
+00:03:10.950 --> 00:03:12.600
+And I'll see you on the next one.
+

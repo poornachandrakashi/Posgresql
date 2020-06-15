@@ -1,0 +1,270 @@
+﻿WEBVTT
+
+1
+00:00:00.499 --> 00:00:04.028 line:15% 
+(rippling piano music)
+
+2
+00:00:04.028 --> 00:00:07.110
+<v ->My name's Jose Salvatierra, founder of Teclado.</v>
+
+3
+00:00:07.110 --> 00:00:08.770
+We created the most popular
+
+4
+00:00:08.770 --> 00:00:11.230 line:15% 
+REST API development course on Udemy.
+
+5
+00:00:11.230 --> 00:00:15.330 line:15% 
+We've over 4,000 reviews and 20,000 students.
+
+6
+00:00:15.330 --> 00:00:18.190
+Now we've created this advanced REST API course
+
+7
+00:00:18.190 --> 00:00:21.210
+to take you even farther in your API and development
+
+8
+00:00:21.210 --> 00:00:23.830
+using Flask and Python.
+
+9
+00:00:23.830 --> 00:00:27.740
+Our first course took you from zero to a deployed REST API
+
+10
+00:00:27.740 --> 00:00:29.430
+that your users could access.
+
+11
+00:00:29.430 --> 00:00:32.100
+But tonnes of students asked for more.
+
+12
+00:00:32.100 --> 00:00:35.720
+You guys wanted to send emails, deal with image upload,
+
+13
+00:00:35.720 --> 00:00:38.120
+deal with payments, database migrations,
+
+14
+00:00:38.120 --> 00:00:39.950
+and the list goes on.
+
+15
+00:00:39.950 --> 00:00:43.297
+After spending months creating and streamlining this course,
+
+16
+00:00:43.297 --> 00:00:45.973
+I'm proud to say we've got your back.
+
+17
+00:00:47.070 --> 00:00:48.870
+This course will guide you through adding
+
+18
+00:00:48.870 --> 00:00:50.800
+all those features and more
+
+19
+00:00:50.800 --> 00:00:54.150
+using the latest technologies and the best practises.
+
+20
+00:00:54.150 --> 00:00:55.860
+We also teach everything in this course
+
+21
+00:00:55.860 --> 00:00:59.530
+using Python 3.7, the latest version.
+
+22
+00:00:59.530 --> 00:01:03.010
+Do note though, that this is an advanced course.
+
+23
+00:01:03.010 --> 00:01:04.690
+So while you don't need to take
+
+24
+00:01:04.690 --> 00:01:07.170
+our introductory REST API course,
+
+25
+00:01:07.170 --> 00:01:09.190
+programming experience with either Python
+
+26
+00:01:09.190 --> 00:01:11.783
+or another programming language is necessary.
+
+27
+00:01:12.620 --> 00:01:15.550
+In addition, if you have some knowledge of how the web works
+
+28
+00:01:15.550 --> 00:01:17.380
+that would also be really helpful.
+
+29
+00:01:17.380 --> 00:01:18.520
+More information on this
+
+30
+00:01:18.520 --> 00:01:20.770
+is available in the course description below.
+
+31
+00:01:21.680 --> 00:01:24.080
+So how is the course structured?
+
+32
+00:01:24.080 --> 00:01:27.080
+Well, students loved the format of our previous course
+
+33
+00:01:27.080 --> 00:01:29.060
+where we introduced new features
+
+34
+00:01:29.060 --> 00:01:31.380
+by baking them into an application.
+
+35
+00:01:31.380 --> 00:01:33.270
+We're going to do the same in this course
+
+36
+00:01:33.270 --> 00:01:35.180
+so that you can see how a professional
+
+37
+00:01:35.180 --> 00:01:37.610
+REST API is developed.
+
+38
+00:01:37.610 --> 00:01:39.400
+We start with a simple REST API
+
+39
+00:01:39.400 --> 00:01:41.550
+and teach you everything you need to know about it.
+
+40
+00:01:41.550 --> 00:01:44.060
+So even if you've not taken our introductory course,
+
+41
+00:01:44.060 --> 00:01:47.100
+you'll follow along with absolutely no issues.
+
+42
+00:01:47.100 --> 00:01:50.500
+We've also got a short ebook to help you with this.
+
+43
+00:01:50.500 --> 00:01:54.440
+Then, we'll migrate from reqparse to marshmallow
+
+44
+00:01:54.440 --> 00:01:57.070
+to simply our code and make it more readable
+
+45
+00:01:57.070 --> 00:01:58.173
+and more maintainable.
+
+46
+00:01:59.080 --> 00:02:00.380
+Through the following sections,
+
+47
+00:02:00.380 --> 00:02:03.410
+you'll work on features like user confirmation emails
+
+48
+00:02:03.410 --> 00:02:05.650
+so your users have to click a link in an email
+
+49
+00:02:05.650 --> 00:02:07.620
+before they can activate their account.
+
+50
+00:02:07.620 --> 00:02:09.210
+You'll deal with image uploads.
+
+51
+00:02:09.210 --> 00:02:12.100
+We'll add translations, database migrations.
+
+52
+00:02:12.100 --> 00:02:14.390
+We'll deal with payments and we'll even
+
+53
+00:02:14.390 --> 00:02:17.243
+use third-party services to log in with OAuth.
+
+54
+00:02:18.660 --> 00:02:19.840
+As we go through the course,
+
+55
+00:02:19.840 --> 00:02:20.940
+we'll help you understand
+
+56
+00:02:20.940 --> 00:02:23.270
+how to develop features incrementally
+
+57
+00:02:23.270 --> 00:02:25.320
+so you can get them to your users quickly
+
+58
+00:02:25.320 --> 00:02:27.400
+and minimise risk.
+
+59
+00:02:27.400 --> 00:02:29.203
+Many lectures contain extra resources
+
+60
+00:02:29.203 --> 00:02:32.400
+for you to go out and learn more.
+
+61
+00:02:32.400 --> 00:02:33.490
+And for every lecture,
+
+62
+00:02:33.490 --> 00:02:34.720
+we've included the source code
+
+63
+00:02:34.720 --> 00:02:36.340
+at the start and at the end,
+
+64
+00:02:36.340 --> 00:02:38.400
+so you'll never be lost.
+
+65
+00:02:38.400 --> 00:02:40.900 line:15% 
+I really can't wait to guide you through this course.
+
+66
+00:02:40.900 --> 00:02:41.870 line:15% 
+You can' go wrong.
+
+67
+00:02:41.870 --> 00:02:44.293 line:15% 
+So join me and I'll see you on the inside.
+
